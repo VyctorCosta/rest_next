@@ -1,0 +1,37 @@
+.navbar {
+    background-color: white;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    font-family: 'Nunito Sans', sans-serif;
+
+    width: auto;
+
+}
+
+.darkmode {
+    font-family: 'Nunito Sans', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.darkmode img {
+    padding-right: 10px;
+}

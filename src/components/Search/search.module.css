@@ -1,0 +1,63 @@
+.pesquisa {
+    width: auto;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barradepesquisa {
+    margin: 30px 50px;
+    background: #fff;
+    width: 60%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.12);
+}
+
+.barradepesquisa input{
+    height: 55px;
+    width: 98%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 0px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+.barradepesquisa .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.listapaises {
+    cursor: pointer;
+    margin-right: 60px;
+
+    height: 55px;
+    padding: 0 20px;
+
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
