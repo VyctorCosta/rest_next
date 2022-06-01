@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Body.module.css";
 import { useRouter } from "next/router";
-import { AuthContext } from "../../providers/auth";
+import { AuthContext } from "../../../pages/index";
 
 
 function createElement(array) {
@@ -35,9 +35,9 @@ function createElement(array) {
 
 function Body() {
     const {arrayCountries, setArrayCountries, inputValue, region, getInfoApi} = React.useContext(AuthContext);
-    useEffect(() => {
-        getInfoApi(setArrayCountries, inputValue, region)
-    }, [])
+    // useEffect(() => {
+    //     getInfoApi(setArrayCountries, inputValue, region)
+    // }, [])
     return (
         <>
             <ul className={styles.ulBody}>{createElement(arrayCountries)}</ul>            

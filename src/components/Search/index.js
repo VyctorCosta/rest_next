@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import { AuthContext } from "../../providers/auth";
+import React from "react";
+import { AuthContext } from "../../../pages/index";
 import Style from './search.module.css'
 
-export default () => {
+export default ({}) => {
     const { setInputValue, setRegion, inputValue, region, setArrayCountries, getInfoApi } = React.useContext(AuthContext);
 
     return (
